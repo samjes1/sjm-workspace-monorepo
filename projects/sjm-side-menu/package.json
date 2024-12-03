@@ -1,11 +1,12 @@
 {
   "name": "sjm-side-menu",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/samjes1/sjm-workspace-monorepo"
   },
   "keywords": ["Samy", "sjm", "experimental-use"],
+  "license": "MIT",
   "author": "Samys Molina",
   "bugs": {
     "url": "https://github.com/samjes1/sjm-workspace-monorepo/issues"
