@@ -6,6 +6,11 @@
     "url": "https://github.com/samjes1/sjm-workspace-monorepo"
   },
   "keywords": ["Samy", "sjm", "experimental-use"],
+  "author": "Samys Molina",
+  "bugs": {
+    "url": "https://github.com/samjes1/sjm-workspace-monorepo/issues"
+  },
+  "homepage": "",
   "peerDependencies": {
     "@angular/common": "^19.0.0",
     "@angular/core": "^19.0.0"
