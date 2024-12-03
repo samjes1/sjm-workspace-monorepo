@@ -2,9 +2,10 @@
   "name": "sjm-side-menu",
   "version": "0.0.1",
   "repository": {
-    "type": "git"
-    
+    "type": "git",
+    "url": "https://github.com/samjes1/sjm-workspace-monorepo"
   },
+  "keywords": ["Samy", "sjm", "experimental-use"],
   "peerDependencies": {
     "@angular/common": "^19.0.0",
     "@angular/core": "^19.0.0"
