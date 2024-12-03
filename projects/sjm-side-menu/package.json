@@ -1,6 +1,10 @@
 {
   "name": "sjm-side-menu",
   "version": "0.0.1",
+  "repository": {
+    "type": "git"
+    
+  },
   "peerDependencies": {
     "@angular/common": "^19.0.0",
     "@angular/core": "^19.0.0"

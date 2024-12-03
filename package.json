@@ -11,7 +11,7 @@
     "sjm-side-menu:build": "ng build sjm-side-menu",
     "sjm-side-menu:lint": "ng lint sjm-side-menu",
     "sjm-side-menu:test": "ng test sjm-side-menu --no-watch --no-progress --browsers=ChromeHeadless",
-    "sjm-side-menu:publish": "npm run sjm-side-menu:test && npm run sjm-side-menu:build && npm publish dist/sjm-side-menu"
+    "sjm-side-menu:publish": "npm run sjm-side-menu:test && npm run sjm-side-menu:build && npm publish dist/sjm-side-menu/"
   },
   "private": true,
   "dependencies": {
