@@ -1,5 +1,10 @@
 <h1 class="text-3xl font-bold underline">Hola Mundo</h1>
 <p>Hola Mundo v2</p>
 
-<lib-sjm-side-menu/>
-<router-outlet/>
+<lib-sjm-side-menu
+  [isAuthenticated]="isAuthenticated()"
+  [titleColor]="TitleColor.green"
+  (onSignIn)="isAuthenticated.set(true)"
+  (onSignOut)="isAuthenticated.set(false)"
+/>
+<router-outlet />
