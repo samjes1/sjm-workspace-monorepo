@@ -7,13 +7,14 @@
         class="text-2xl font-bold block antialiased tracking-normal font-sans leading-relaxed text-white"
       >
         <!-- TODO: Modif Colors -->
-        <span [classList]="titleColor()" class="text-blue-500">SJM</span
-        ><span class="font-thin"> Corp</span>
+        <span [classList]="titleColor()" class="text-blue-500"> {{title()}}</span
+        ><span class="font-thin"> {{subTitle()}}</span>
       </h6>
     </a>
     <button
       class="middle none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none w-8 max-w-[32px] h-8 max-h-[32px] rounded-lg text-xs text-white hover:bg-white/10 active:bg-white/30 absolute right-0 top-0 grid rounded-br-none rounded-tl-none xl:hidden"
       type="button"
+      title="button"
     >
       <span
         class="absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"

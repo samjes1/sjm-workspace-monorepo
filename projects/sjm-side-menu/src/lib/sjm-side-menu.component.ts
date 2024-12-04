@@ -16,7 +16,9 @@ export enum TitleColor {
 export class SjmSideMenuComponent {
 
   isAuthenticated = input(false);
-
+  title = input('SJM');
+  subTitle = input('Corp');
+  
   titleColor = input<TitleColor>(TitleColor.purple)
 
   onSignOut = output();
